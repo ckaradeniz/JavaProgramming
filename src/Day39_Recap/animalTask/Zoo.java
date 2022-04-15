@@ -17,6 +17,9 @@ public class Zoo {
         dog.sleep();
         dog.bark();
 
+        dog.setAge(-4);
+        System.out.println(dog);
+
 
 
         Lion lion =new Lion ("d", "e", 'F', 5, "Large", "yellow");
